@@ -1,4 +1,4 @@
-name             'jboss7'
+name             'jboss'
 maintainer       'Saibal Dey'
 maintainer_email 'YOUR_'
 license          'All rights reserved'
