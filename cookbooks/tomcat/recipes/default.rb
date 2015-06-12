@@ -1,15 +1,14 @@
 #
-# Cookbook Name:: jboss
+# Cookbook Name:: tomcat
 # Recipe:: default
 #
 # Copyright 2015, YOUR_COMPANY_NAME
 #
 # All rights reserved - Do Not Redistribute
 #
-package 'jboss' do
+package 'tomcat' do
   action :install
 end
-
-service 'jboss' do
-  action [ :enable, :start ]
+service 'tomcat' do
+  action :start
 end
